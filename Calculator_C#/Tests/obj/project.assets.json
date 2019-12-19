@@ -1,0 +1,80 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Calc_CSharpe/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Calc_CSharpe.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calc_CSharpe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Calc_CSharpe/1.0.0": {
+      "type": "project",
+      "path": "../Calc_CSharpe/Calc_CSharpe.csproj",
+      "msbuildProject": "../Calc_CSharpe/Calc_CSharpe.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Calc_CSharpe >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nkrup\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\nkrup\\Desktop\\Calculator_C#\\Tests\\Tests.csproj",
+      "projectName": "Tests",
+      "projectPath": "C:\\Users\\nkrup\\Desktop\\Calculator_C#\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\nkrup\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nkrup\\Desktop\\Calculator_C#\\Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nkrup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\nkrup\\Desktop\\Calculator_C#\\Calc_CSharpe\\Calc_CSharpe.csproj": {
+              "projectPath": "C:\\Users\\nkrup\\Desktop\\Calculator_C#\\Calc_CSharpe\\Calc_CSharpe.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

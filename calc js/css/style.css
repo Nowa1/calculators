@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    width: 220px;
+    height: 280px;
+    background:rgb(95, 94, 94);
+    border-radius: 10px;
+    padding: 10px
+}
+.out, .tablo input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    height: 30px;
+    justify-content: center;
+}
+.tablo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 80%;
+    font-size: 35px;
+}
+
+.calc__menu {
+    margin-top: 20px;
+    
+}
+.calc__row {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.calc__row .btn,.btn1, .bigbutton, .btn_op, .bigbuttonend {
+    cursor: pointer;
+    width: 25%;
+    height: 44px;
+    color: #fff;
+    background: rgb(250, 194, 91);
+    border: 1px solid #dadada;
+    transition: .3s;
+    font-weight: 700;
+    font-size: 20px;
+    
+     
+}
+.bigbutton, .bigbuttonend{
+    width: 50% !important;
+}
+
+.btn_op{
+    background: rgb(114, 183, 223);
+}
+.bigbuttonend {
+    background:  rgb(202, 144, 236);
+
+}
+.calc__row:hover .btn:hover,.btn1:hover, .bigbutton:hover, .btn_op:hover, .bigbuttonend:hover {
+    border: 1px solid black ;
+
+}
